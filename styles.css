@@ -269,24 +269,14 @@ span {
 
 .skills-section {
   padding: 40px 20px;
-  background-color: #2d2c2b; /* light background for the whole section */
+  background-color: #b8ada0; /* light background for the whole section */
 }
 
 .skills-section h2 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 2.5rem;
-  color: #222;
-}
-
-.category-title {
-  font-size: 1.8rem;
-  color: #444;
-  border-bottom: 3px solid #007bff; /* underline effect */
-  padding-bottom: 8px;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  width: fit-content;
+  color: #2e2b28;
 }
 
 .skills-grid {
@@ -297,7 +287,7 @@ span {
 }
 
 .skill-box {
-  background-color: white;
+  background-color: ;
   border-radius: 12px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
   width: 130px;
