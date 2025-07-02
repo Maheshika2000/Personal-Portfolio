@@ -269,7 +269,7 @@ span {
 
 .skills-section {
   padding: 40px 20px;
-  background-color: #b8ada0; /* light background for the whole section */
+  background-color: #424140; /* light background for the whole section */
 }
 
 .skills-section h2 {
@@ -297,24 +297,25 @@ span {
 }
 
 .skill-box {
-  background-color: #b5afa8;
+  background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: default;
+  margin-bottom: 4rem;
 }
 
 .skill-box i, 
 .skill-box img {
   font-size: 48px;
   margin-bottom: 12px;
-  color: #007bff; /* brand color for icons */
+  color: #052344; /* brand color for icons */
 }
 
 .skill-box p {
