@@ -12,10 +12,10 @@
 }
  
 :root {
-  --bg-color: #222121;
-  --snd-bf-color: #393836;
-  --text-color: #ffffff;
-  --main-color: #999898;
+  --bg-color:  #345680fb;
+  --snd-bf-color: #5c789f;
+  --text-color: #c9c6c6;
+  --main-color: #12273d;
 }
 
 html {
@@ -45,7 +45,7 @@ position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 18px 100px;
-    background-color: #7c7979;
+    background-color: #23303b;
     transition: 0.5s linear;
 }
 .logo {
@@ -57,7 +57,7 @@ position: fixed;
 
 .navbar{
   display: flex ;
-  background-color: #7c7979;
+  background-color: #23303b;
 }
 .navbar a {
   font-size: 1.5rem;
@@ -106,6 +106,7 @@ span {
 .home-img img {
   width: 25vw;
   animation: floatImage 4s ease-in-out infinite;
+
 }
 
 .home-content p {
@@ -139,7 +140,7 @@ span {
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
-  color: var(--bg-color);
+  color: var();
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
@@ -154,7 +155,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: var(--snd-bf-color);
+  background: #4b7299;
   padding: 10rem 9% 2rem;
 }
 
@@ -163,7 +164,7 @@ span {
   border: 0.2rem solid var(--main-color);
   border-radius: 2rem;
   padding: 1rem;
-  background-color: #29292a;
+  background-color: #0f0f2d;
 }
 
 .heading {
@@ -246,7 +247,7 @@ span {
 }
 
 .portfolio-layer p{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: .3rem 0 1rem;
 
 }
@@ -255,8 +256,8 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   background:var(--text-color);
   border-radius: 50%;
 
@@ -269,19 +270,19 @@ span {
 
 .skills-section {
   padding: 40px 20px;
-  background-color: #424140; /* light background for the whole section */
+  background-color: #4b7299; /* light background for the whole section */
 }
 
 .skills-section h2 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 2.5rem;
-  color: #b5afa8;
+  color: #19467c;
 }
 
 .category-title {
   font-size: 1.8rem;
-  color: #444;
+  color: #323131;
   border-bottom: 3px solid #007bff; /* underline effect */
   padding-bottom: 8px;
   margin-bottom: 20px;
@@ -297,7 +298,7 @@ span {
 }
 
 .skill-box {
-  background-color: #ffffff;
+  background-color: #92b7e1;
   border-radius: 12px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
   width: 150px;
@@ -321,7 +322,7 @@ span {
 .skill-box p {
   font-weight: 600;
   font-size: 1.1rem;
-  color: #333;
+  color: #131212;
   margin: 0;
   text-align: center;
 }
@@ -337,8 +338,7 @@ span {
 }
 
 .services{
-
-  background-color: #56524f;
+  background-color: #364a60;
 }
 
 .services-container {
@@ -381,6 +381,8 @@ span {
 .contact h2{
   margin-bottom: 3rem;
 
+  color: #fefefe;
+
 }
 .contact form{
   max-width: 70rem;
@@ -402,14 +404,15 @@ span {
   width:100%;
   padding: 1.5rem;
   font-size: 1.6rem;
-  color: var(--text-color);
-  background: var(--snd-bf-color);
+  color: #ffffff;
+  background: #21303f;
   border-radius: .8rem;
   margin: .7rem 0;
 }
 
 .contact form .input-box input{
   width: 49%;
+
 }
 
 .contact form textarea{
