@@ -256,8 +256,8 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 5rem;
-  height: 5rem;
+  width: 2rem;
+  height: 2rem;
   background:var(--text-color);
   border-radius: 50%;
 
@@ -582,6 +582,7 @@ span {
     width:100%;
   }
 }
+
 
 
 
